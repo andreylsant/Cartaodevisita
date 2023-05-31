@@ -17,8 +17,34 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 70vh;
+    background-color: var(--Cream);
 }
 
+img{
+    width: 17.0rem;
+    border-radius: 1.0rem 0 0 1.0rem;
+}
+
+.content header{
+    width: 35.0rem;
+    background-color: var(--White);
+    display: flex;
+    border-radius: 1.0rem;
+}
+
+
+.text-principal .text{
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+    color: var(--Darkgrayish-blue);
+    padding: 1.5rem 2.0rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    padding-left:2.0rem
+    
+}
 
 p{
     font-family: 'Montserrat', sans-serif;
