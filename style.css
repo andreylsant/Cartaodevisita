@@ -33,6 +33,7 @@ img{
 }
 
 
+
 .text-principal .text{
     letter-spacing: 0.2rem;
     font-size: 0.8rem;
@@ -46,6 +47,7 @@ h1{
     color: var(--Very-dark-blue);
     line-height: 1;
     font-size: 2.5rem;
+    font-weight: 700;
 }
 
 .descricao{
@@ -54,7 +56,43 @@ h1{
     padding: 1.0rem 2.0rem;
 }
 
+.valor{
+    display: flex;
+    align-items: center;
+}
+
+strong{
+    font-size: 2.0rem;
+    color: var(--Darkcyan);
+    padding: 0 2.0rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem 2rem;
+    width: 80%;;
+    margin: 1rem 2rem ;
+    background-color: var(--Darkcyan);
+    color: var(--White);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+button :hover{
+    background-color: hsl(158, 83%, 16%);;
+}
+
 p{
     font-family: 'Montserrat', sans-serif;
 }
+
+
 
