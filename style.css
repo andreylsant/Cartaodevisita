@@ -105,7 +105,6 @@ button:hover{
 }
 
 @media (max-width: 600px){
-
     .content header{
         display: flex;
         flex-direction: column;
